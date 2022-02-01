@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/index2.js"></script>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div>
+        <h2>Register Here</h2>
+        <form name="myForm">
+            <table>
+                <tr>
+                    <th class="col1">First Name</th>
+                    <td class="col2"><input type="text" id="firstname" placeholder="First Name" minlength="3" maxlength="15" required="true"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Last Name</th>
+                    <td class="col2"><input type="text" id="lastname" placeholder="Last Name" minlength="3" maxlength="15" required="true"></td>
+                </tr>
+                <tr>
+                    <th class="col1">User Name</th>
+                    <td class="col2"><input type="text" id="username" placeholder="User Name" required="true"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Password</th>
+                    <td class="col2"><input type="password" id="password" placeholder="Password" minlength="3" maxlength="15" required="true"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Address</th>
+                    <td class="col2"><input type="text" class="textarea" required="true"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Pin</th>
+                    <td class="col2"><input type="number" placeholder="pin code" required="true"></td>
+                </tr>
+                <tr>
+                    <th class="col1"></th>
+                    <td class="col2"><input type="button" id="register" value="Post"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
